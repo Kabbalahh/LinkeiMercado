@@ -1,0 +1,179 @@
+/* Reset básico */
+body, h1, h2, h3, p, ul, li, a, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5; /* Cinza claro de fundo, similar ao ML */
+    color: #333; /* Preto para texto principal */
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden; /* Para conter floats */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #fff159; /* Amarelo Mercado Livre */
+    padding: 1em 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-placeholder {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    padding: 10px 20px;
+    border: 2px dashed #333;
+    display: inline-block;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333; /* Preto para links do menu */
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #000;
+}
+
+/* Seções */
+.section-padding {
+    padding: 40px 0;
+}
+
+#sobre h2, #produtos h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 2em;
+}
+
+/* Grade de Produtos */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsivo */
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff; /* Branco para cards de produto */
+    border: 1px solid #e0e0e0; /* Borda cinza clara */
+    border-radius: 4px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.product-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product-card .price {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #000; /* Preto para preço */
+    margin-bottom: 15px;
+}
+
+.btn-details {
+    display: inline-block;
+    background-color: #fff159; /* Amarelo Mercado Livre */
+    color: #333; /* Texto preto no botão amarelo */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border: 1px solid #f0e14a; /* Borda sutil para o botão */
+}
+
+.btn-details:hover {
+    background-color: #f0e14a; /* Amarelo um pouco mais escuro no hover */
+}
+
+/* Rodapé */
+footer {
+    background-color: #333; /* Cinza escuro para rodapé */
+    color: #fff; /* Texto branco no rodapé */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Responsividade adicional para telas menores */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+    }
+
+    .logo-placeholder {
+        margin-bottom: 15px;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .product-grid {
+        grid-template-columns: 1fr; /* Uma coluna em telas muito pequenas */
+    }
+
+    #sobre h2, #produtos h2 {
+        font-size: 1.5em;
+    }
+
+    .product-card h3 {
+        font-size: 1.1em;
+    }
+
+    .product-card .price {
+        font-size: 1em;
+    }
+
+    .btn-details {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+}
+
