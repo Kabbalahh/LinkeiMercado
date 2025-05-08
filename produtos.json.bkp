@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "nome": "TESTE",
+    "preco": "R$ 99999999",
+    "linkAfiliado": "WWW.GOOGLE.COm",
+    "imagemPrincipal": "/img_produtos/produto1.png",
+    "imagensMiniaturas": [
+      "/img_produtos/produto1.png",
+      "/img_produtos/produto1.png",
+      "/img_produtos/produto1.png"
+    ],
+    "descricaoCurta": "O Smartwatch X Pro Avançado oferece monitoramento completo de saúde, GPS integrado e bateria de longa duração.",
+    "caracteristicas": [
+      {
+        "grupo": "Características gerais",
+        "itens": [
+          {"chave": "Marca", "valor": "TechFuture"},
+          {"chave": "Linha", "valor": "X Series"},
+          {"chave": "Modelo", "valor": "X Pro"},
+          {"chave": "Modelo alfanumérico", "valor": "TF-XPRO-001"},
+          {"chave": "Modelo detalhado", "valor": "TechFuture X Pro Advanced"}
+        ]
+      },
+      {
+        "grupo": "Tela",
+        "itens": [
+          {"chave": "Tamanho da tela", "valor": "1.78 \""},
+          {"chave": "Tipo de tela", "valor": "AMOLED"},
+          {"chave": "Resolução máxima", "valor": "368 x 448"},
+          {"chave": "Com tela tátil", "valor": "Sim"}
+        ]
+      },
+      {
+        "grupo": "Bateria",
+        "itens": [
+          {"chave": "Duração da bateria", "valor": "10 dias"}
+        ]
+      },
+      {
+        "grupo": "Outros",
+        "itens": [
+          {"chave": "Com GPS", "valor": "Sim"},
+          {"chave": "É resistente à água", "valor": "Sim (5 ATM)"},
+          {"chave": "Com Bluetooth", "valor": "Sim, 5.0"},
+          {"chave": "Com NFC", "valor": "Sim"}
+        ]
+      }
+    ]
+  }
+  
+]
