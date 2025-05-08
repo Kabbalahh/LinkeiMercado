@@ -1,10 +1,10 @@
 [
   {
     "id": "1",
-    "nome": "Smartwatch X Pro Avançado",
-    "preco": "R$ 349,90",
-    "linkAfiliado": "#link_afiliado_smartwatch_x_pro",
-    "imagemPrincipal": "https://via.placeholder.com/400x400.png?text=Smartwatch+X+Pro",
+    "nome": "TESTE",
+    "preco": "R$ 99999999",
+    "linkAfiliado": "WWW.GOOGLE.COM",
+    "imagemPrincipal": "/img_produtos/produto1.png",
     "imagensMiniaturas": [
       "https://via.placeholder.com/80x80.png?text=Thumb1",
       "https://via.placeholder.com/80x80.png?text=Thumb2",
