@@ -3,12 +3,12 @@
     "id": "1",
     "nome": "TESTE",
     "preco": "R$ 99999999",
-    "linkAfiliado": "WWW.GOOGLE.COM",
+    "linkAfiliado": "WWW.GOOGLE.COm",
     "imagemPrincipal": "/img_produtos/produto1.png",
     "imagensMiniaturas": [
-      "https://via.placeholder.com/80x80.png?text=Thumb1",
-      "https://via.placeholder.com/80x80.png?text=Thumb2",
-      "https://via.placeholder.com/80x80.png?text=Thumb3"
+      "/img_produtos/produto1.png",
+      "/img_produtos/produto1.png",
+      "/img_produtos/produto1.png"
     ],
     "descricaoCurta": "O Smartwatch X Pro Avançado oferece monitoramento completo de saúde, GPS integrado e bateria de longa duração.",
     "caracteristicas": [
