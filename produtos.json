@@ -1,0 +1,187 @@
+[
+  {
+    "id": "1",
+    "nome": "Smartwatch X Pro Avançado",
+    "preco": "R$ 349,90",
+    "linkAfiliado": "#link_afiliado_smartwatch_x_pro",
+    "imagemPrincipal": "https://via.placeholder.com/400x400.png?text=Smartwatch+X+Pro",
+    "imagensMiniaturas": [
+      "https://via.placeholder.com/80x80.png?text=Thumb1",
+      "https://via.placeholder.com/80x80.png?text=Thumb2",
+      "https://via.placeholder.com/80x80.png?text=Thumb3"
+    ],
+    "descricaoCurta": "O Smartwatch X Pro Avançado oferece monitoramento completo de saúde, GPS integrado e bateria de longa duração.",
+    "caracteristicas": [
+      {
+        "grupo": "Características gerais",
+        "itens": [
+          {"chave": "Marca", "valor": "TechFuture"},
+          {"chave": "Linha", "valor": "X Series"},
+          {"chave": "Modelo", "valor": "X Pro"},
+          {"chave": "Modelo alfanumérico", "valor": "TF-XPRO-001"},
+          {"chave": "Modelo detalhado", "valor": "TechFuture X Pro Advanced"}
+        ]
+      },
+      {
+        "grupo": "Tela",
+        "itens": [
+          {"chave": "Tamanho da tela", "valor": "1.78 \""},
+          {"chave": "Tipo de tela", "valor": "AMOLED"},
+          {"chave": "Resolução máxima", "valor": "368 x 448"},
+          {"chave": "Com tela tátil", "valor": "Sim"}
+        ]
+      },
+      {
+        "grupo": "Bateria",
+        "itens": [
+          {"chave": "Duração da bateria", "valor": "10 dias"}
+        ]
+      },
+      {
+        "grupo": "Outros",
+        "itens": [
+          {"chave": "Com GPS", "valor": "Sim"},
+          {"chave": "É resistente à água", "valor": "Sim (5 ATM)"},
+          {"chave": "Com Bluetooth", "valor": "Sim, 5.0"},
+          {"chave": "Com NFC", "valor": "Sim"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "nome": "Fone de Ouvido Bluetooth SoundMax",
+    "preco": "R$ 199,00",
+    "linkAfiliado": "#link_afiliado_fone_soundmax",
+    "imagemPrincipal": "https://via.placeholder.com/400x400.png?text=Fone+SoundMax",
+    "imagensMiniaturas": [
+      "https://via.placeholder.com/80x80.png?text=Thumb1",
+      "https://via.placeholder.com/80x80.png?text=Thumb2"
+    ],
+    "descricaoCurta": "Experimente som imersivo com o Fone de Ouvido Bluetooth SoundMax, cancelamento de ruído e design confortável.",
+    "caracteristicas": [
+      {
+        "grupo": "Características gerais",
+        "itens": [
+          {"chave": "Marca", "valor": "AudioPhonic"},
+          {"chave": "Linha", "valor": "SoundMax"},
+          {"chave": "Modelo", "valor": "SMAX-2025"}
+        ]
+      },
+      {
+        "grupo": "Conectividade",
+        "itens": [
+          {"chave": "Com Bluetooth", "valor": "Sim, 5.2"},
+          {"chave": "Com microfone", "valor": "Sim"}
+        ]
+      },
+      {
+        "grupo": "Bateria",
+        "itens": [
+          {"chave": "Duração da bateria do fone", "valor": "8 horas"},
+          {"chave": "Duração da bateria com estojo", "valor": "32 horas"}
+        ]
+      },
+      {
+        "grupo": "Outros",
+        "itens": [
+          {"chave": "Com cancelamento de ruído", "valor": "Sim"},
+          {"chave": "É resistente à água", "valor": "Sim (IPX4)"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "nome": "Smartwatch X Pro Avançado",
+    "preco": "R$ 349,90",
+    "linkAfiliado": "#link_afiliado_smartwatch_x_pro",
+    "imagemPrincipal": "https://via.placeholder.com/400x400.png?text=Smartwatch+X+Pro",
+    "imagensMiniaturas": [
+      "https://via.placeholder.com/80x80.png?text=Thumb1",
+      "https://via.placeholder.com/80x80.png?text=Thumb2",
+      "https://via.placeholder.com/80x80.png?text=Thumb3"
+    ],
+    "descricaoCurta": "O Smartwatch X Pro Avançado oferece monitoramento completo de saúde, GPS integrado e bateria de longa duração.",
+    "caracteristicas": [
+      {
+        "grupo": "Características gerais",
+        "itens": [
+          {"chave": "Marca", "valor": "TechFuture"},
+          {"chave": "Linha", "valor": "X Series"},
+          {"chave": "Modelo", "valor": "X Pro"},
+          {"chave": "Modelo alfanumérico", "valor": "TF-XPRO-001"},
+          {"chave": "Modelo detalhado", "valor": "TechFuture X Pro Advanced"}
+        ]
+      },
+      {
+        "grupo": "Tela",
+        "itens": [
+          {"chave": "Tamanho da tela", "valor": "1.78 \""},
+          {"chave": "Tipo de tela", "valor": "AMOLED"},
+          {"chave": "Resolução máxima", "valor": "368 x 448"},
+          {"chave": "Com tela tátil", "valor": "Sim"}
+        ]
+      },
+      {
+        "grupo": "Bateria",
+        "itens": [
+          {"chave": "Duração da bateria", "valor": "10 dias"}
+        ]
+      },
+      {
+        "grupo": "Outros",
+        "itens": [
+          {"chave": "Com GPS", "valor": "Sim"},
+          {"chave": "É resistente à água", "valor": "Sim (5 ATM)"},
+          {"chave": "Com Bluetooth", "valor": "Sim, 5.0"},
+          {"chave": "Com NFC", "valor": "Sim"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fone-bluetooth-exemplo-2",
+    "nome": "Fone de Ouvido Bluetooth SoundMax",
+    "preco": "R$ 199,00",
+    "linkAfiliado": "#link_afiliado_fone_soundmax",
+    "imagemPrincipal": "https://via.placeholder.com/400x400.png?text=Fone+SoundMax",
+    "imagensMiniaturas": [
+      "https://via.placeholder.com/80x80.png?text=Thumb1",
+      "https://via.placeholder.com/80x80.png?text=Thumb2"
+    ],
+    "descricaoCurta": "Experimente som imersivo com o Fone de Ouvido Bluetooth SoundMax, cancelamento de ruído e design confortável.",
+    "caracteristicas": [
+      {
+        "grupo": "Características gerais",
+        "itens": [
+          {"chave": "Marca", "valor": "AudioPhonic"},
+          {"chave": "Linha", "valor": "SoundMax"},
+          {"chave": "Modelo", "valor": "SMAX-2025"}
+        ]
+      },
+      {
+        "grupo": "Conectividade",
+        "itens": [
+          {"chave": "Com Bluetooth", "valor": "Sim, 5.2"},
+          {"chave": "Com microfone", "valor": "Sim"}
+        ]
+      },
+      {
+        "grupo": "Bateria",
+        "itens": [
+          {"chave": "Duração da bateria do fone", "valor": "8 horas"},
+          {"chave": "Duração da bateria com estojo", "valor": "32 horas"}
+        ]
+      },
+      {
+        "grupo": "Outros",
+        "itens": [
+          {"chave": "Com cancelamento de ruído", "valor": "Sim"},
+          {"chave": "É resistente à água", "valor": "Sim (IPX4)"}
+        ]
+      }
+    ]
+  }
+
+]

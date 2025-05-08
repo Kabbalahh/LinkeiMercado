@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Produtos - Afiliados Mercado Livre</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gerenciador.css"> <!-- CSS específico para o gerenciador -->
+</head>
+<body class="pagina-gerenciador">
+    <header>
+        <div class="container">
+            <div class="logo-placeholder"><a href="index.html" style="text-decoration: none; color: inherit;">Seu Logo Aqui</a></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="gerenciador.html">Gerenciar Produtos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container section-padding">
+        <h1>Gerenciador de Produtos</h1>
+        <p class="instrucao-gerenciador">Use o formulário abaixo para gerar o código JSON de um novo produto. Copie o código gerado e adicione-o manualmente ao final do seu arquivo <code>produtos.json</code> no seu repositório.</p>
+
+        <form id="form-novo-produto">
+            <h3>Adicionar Novo Produto</h3>
+
+            <div class="form-group">
+                <label for="produto-id">ID do Produto (único, ex: nome-produto-123):</label>
+                <input type="text" id="produto-id" name="id" required>
+            </div>
+
+            <div class="form-group">
+                <label for="produto-nome">Nome do Produto:</label>
+                <input type="text" id="produto-nome" name="nome" required>
+            </div>
+
+            <div class="form-group">
+                <label for="produto-preco">Preço (ex: R$ 199,90):</label>
+                <input type="text" id="produto-preco" name="preco" required>
+            </div>
+
+            <div class="form-group">
+                <label for="produto-link-afiliado">Link de Afiliado:</label>
+                <input type="url" id="produto-link-afiliado" name="linkAfiliado">
+            </div>
+
+            <div class="form-group">
+                <label for="produto-imagem-principal">URL da Imagem Principal:</label>
+                <input type="url" id="produto-imagem-principal" name="imagemPrincipal">
+            </div>
+
+            <div class="form-group">
+                <label for="produto-imagens-miniaturas">URLs das Imagens Miniaturas (separadas por vírgula):</label>
+                <input type="text" id="produto-imagens-miniaturas" name="imagensMiniaturas">
+                <small>Ex: url1.jpg,url2.png,url3.gif</small>
+            </div>
+
+            <div class="form-group">
+                <label for="produto-descricao-curta">Descrição Curta:</label>
+                <textarea id="produto-descricao-curta" name="descricaoCurta" rows="3"></textarea>
+            </div>
+
+            <h4>Características do Produto</h4>
+            <div id="container-grupos-caracteristicas">
+                <!-- Grupos de características serão adicionados aqui via JS -->
+            </div>
+            <button type="button" id="btn-adicionar-grupo" class="btn-secundario">Adicionar Grupo de Características</button>
+            
+            <hr>
+
+            <button type="submit" class="btn-principal">Gerar JSON do Produto</button>
+        </form>
+
+        <div id="resultado-json-container" style="display:none; margin-top: 30px;">
+            <h3>JSON Gerado:</h3>
+            <p>Copie o código abaixo e adicione ao seu arquivo <code>produtos.json</code> (lembre-se de adicionar uma vírgula antes se já houver outros produtos e garantir que o arquivo JSON continue sendo um array válido).</p>
+            <pre id="json-gerado-output"></pre>
+            <button id="btn-copiar-json" class="btn-secundario">Copiar JSON</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Seu Site de Afiliados. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/gerenciador.js"></script>
+</body>
+</html>

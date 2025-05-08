@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -12,9 +12,10 @@
             <div class="logo-placeholder">Seu Logo Aqui</div>
             <nav>
                 <ul>
-                    <li><a href="#">Início</a></li>
+                    <li><a href="index.html">Início</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="gerenciador.html">Gerenciar Produtos</a></li> <!-- Link para o gerenciador -->
                 </ul>
             </nav>
         </div>
@@ -27,35 +28,16 @@
 
     <section id="produtos" class="container section-padding">
         <h2>Produtos em Destaque</h2>
-        <div class="product-grid">
-            <!-- Produto 1 -->
-            <div class="product-card">
-                <img src="https://via.placeholder.com/300x200.png?text=Imagem+Produto" alt="Produto 1">
-                <h3>Nome do Produto 1</h3>
-                <p class="price">R$ 99,90</p>
-                <a href="products/Em destaque/produto_destaque1.html" class="btn-details">Ver Detalhes</a>
-            </div>
-            <!-- Produto 2 -->
-            <div class="product-card">
-                <img src="https://via.placeholder.com/300x200.png?text=Imagem+Produto" alt="Produto 2">
-                <h3>Nome do Produto 2</h3>
-                <p class="price">R$ 129,90</p>
-                <a href="products/Em destaque/produto_destaque2.html" class="btn-details">Ver Detalhes</a>
-            </div>
-            <!-- Produto 3 -->
-            <div class="product-card">
-                <img src="https://via.placeholder.com/300x200.png?text=Imagem+Produto" alt="Produto 3">
-                <h3>Nome do Produto 3</h3>
-                <p class="price">R$ 79,50</p>
-                <a href="products/Em destaque/produto_destaque3.html" class="btn-details">Ver Detalhes</a>
-            </div>
-            <!-- Produto 4 (simulando mais produtos) -->
-            <div class="product-card">
-                <img src="https://via.placeholder.com/300x200.png?text=Imagem+Produto" alt="Produto 4">
-                <h3>Nome do Produto 4</h3>
-                <p class="price">R$ 199,00</p>
-                <a href="products/Em destaque/produto_destaque4.html" class="btn-details">Ver Detalhes</a>
-            </div>
+        <!-- Os produtos serão carregados aqui pelo JavaScript -->
+        
+        <div class="product-grid" id="product-grid-dinamica">
+            <p>Carregando produtos...</p> 
+            <!-- Conteúdo estático removido, será populado por script.js -->
+        </div>
+
+        <div class="product-grid" id="product-grid-dinamica">
+            <p>Carregando produtos...</p> 
+            <!-- Conteúdo estático removido, será populado por script.js -->
         </div>
     </section>
 
