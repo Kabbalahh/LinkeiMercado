@@ -153,7 +153,7 @@ header .container {
     border: none; /* Remove dashed border */
 }
 .logo-placeholder img {
-    max-height: 40px; /* Adjust logo size */
+    max-height: 65px; /* Adjust logo size */
     vertical-align: middle;
 }
 
