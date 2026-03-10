@@ -1,67 +1,106 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Afiliados Mercado Livre</title>
+    <title>Afiliados Mercado Livre | Linkei Mercado</title>
+    
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
+    
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
     <script src="js/firebase-config.js"></script>
-    <script src="js/script.js"></script>
-
+    
+    <script src="js/script.js" defer></script>
 </head>
-<body>
-    <header>
-        <div class="container">
-            <div class="logo-placeholder">
-            <img src="/img_produtos/img_logo/Logo_website_linkei_mercado.png" 
-                 alt="Logo da Empresa"
-                 title="Voltar ao início">
-        </a>
-
+<body class="bg-plaster">
+    <header class="main-header fade-in">
+        <div class="container header-flex">
+            <div class="logo-wrapper">
+                <a href="index.html">
+                    <img src="img_produtos/img_logo/Logo_website_linkei_mercado.png" 
+                         alt="Logo Linkei Mercado" 
+                         class="logo-img">
+                </a>
             </div>
             
-            <nav>
+            <nav class="nav-apple">
                 <ul>
                     <li><a href="index.html">Início</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="gerenciador.html">Gerenciar Produtos</a></li> <!-- Link para o gerenciador -->
+                    <li><a href="gerenciador.html" class="nav-admin">Gerenciar</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="sobre" class="container section-padding">
-        <h2>Sobre o Site</h2>
-        <p>Bem-vindo ao nosso site de afiliados do Mercado Livre! Aqui você encontrará uma seleção especial de produtos com links diretos para compra. Navegue pelas categorias e aproveite as melhores ofertas!</p>
-    </section>
+    <main>
+        <section id="sobre" class="container intro-section fade-in">
+            <div class="intro-content">
+                <span class="eyebrow">Curadoria Exclusiva</span>
+                <h1>O melhor do Mercado Livre, <br>selecionado para você.</h1>
+                <p>Encontre produtos premium com a segurança da maior plataforma da América Latina.</p>
+            </div>
+        </section>
 
-    <section id="produtos" class="container section-padding">
-        <h2>Produtos em Destaque</h2>
-        <!-- Os produtos serão carregados aqui pelo JavaScript -->
-        
-        <div class="product-grid" id="product-grid-dinamica">
-            <p>Carregando produtos...</p> 
-            <!-- Conteúdo estático removido, será populado por script.js -->
-        </div>
+        <section class="featured-showcase container fade-in">
+            <div class="showcase-grid">
+                <div class="product-visual">
+                    <img src="img_produtos/produto1.png" alt="Produto em Destaque" class="floating-img">
+                </div>
+                
+                <aside class="sales-interface">
+                    <div class="glass-card">
+                        <div class="tag-row">
+                            <span class="badge-flash">OFERTA RELÂMPAGO</span>
+                            <img src="img_produtos/img_logo/Logo_website_linkei_mercado.png" alt="ML" class="ml-tiny-logo">
+                        </div>
+                        
+                        <h2 class="featured-title">Carregando Destaque...</h2>
+                        
+                        <div class="price-box">
+                            <span class="price-strikethrough">R$ 0.000,00</span>
+                            <span class="price-main">R$ 0.000,00</span>
+                        </div>
 
-        <div class="product-grid" id="product-grid-dinamica">
-            <p>Carregando produtos...</p> 
-            <!-- Conteúdo estático removido, será populado por script.js -->
-        </div>
-    </section>
+                        <a href="#" class="cta-button-apple">
+                            COMPRAR NO MERCADO LIVRE
+                        </a>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Seu Site de Afiliados. Todos os direitos reservados.</p>
+                        <div class="trust-indicator">
+                            <svg class="shield-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Compra Garantida</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section id="produtos" class="container product-section fade-in">
+            <div class="section-header">
+                <h2>Explorar Ofertas</h2>
+            </div>
+            
+            <div class="product-grid" id="product-grid-dinamica">
+                <div class="loading-state">
+                    <p>Sincronizando com Mercado Livre...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Linkei Mercado. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="#">Privacidade</a>
+                <a href="#">Termos</a>
+            </div>
         </div>
     </footer>
-
-    <script src="js/script.js"></script>
 </body>
 </html>
